@@ -1,0 +1,133 @@
+:root {
+--font: 'Epilogue', sans-serif;
+--main-color: #464b4f;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body, html {
+	min-height: 100%;
+	width: 100%;
+}
+
+
+/* Main Styles */
+body {
+	font: 30px var(--font);
+	
+}
+
+.header {
+	background: url('../images/header.jpg') no-repeat  top center;
+	padding: 40px;
+	color: white;
+	flex-flow: column;
+	text-align: center;
+}
+
+.logo{
+	margin-bottom: 185px;
+}
+
+.h{
+font-size: 80px;
+font-weight: 700;
+margin-bottom: 60px;
+}
+.pn{
+	font-size: 30px;
+font-weight: 400;
+margin-bottom: 60px;
+
+}
+
+i {
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+	transform: rotate(45deg);
+  }
+
+.strelka{
+	display: block;
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+	background-image: url(../images/bg1.png);
+    background-size: contain;
+    transition: all .3s;
+}
+		 
+main{
+    background: #fff url(../images/bg2.jpg) top center no-repeat;
+	padding: 115px 0;
+	max-width: 1000px;
+    min-width: 400px;
+    width: 100%;
+	margin: 0 auto;
+	color: var(--main-color);
+}
+
+.text{
+	margin-bottom: 100px;
+    text-align: center;
+	padding: 0 5%;
+	text-align: center;
+}
+.text h2{
+	font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 55px;
+    text-transform: uppercase;
+}
+.text p{
+	font-size: 30px;
+    line-height: 42px;
+    font-weight: 300;
+
+}
+.text h3{
+	font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 85px;
+}
+.colon h3{
+	font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 85px
+}
+li{
+    width: 30%;
+    color: var(--main-color);
+}
+.colon p{
+	font-size: 18px;
+    line-height: 30px;
+    color: #888a8b;
+}
+ul{
+	display: flex;
+    justify-content: space-between;
+}
+.colon h4{
+	font-size: 18px;
+    line-height: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
